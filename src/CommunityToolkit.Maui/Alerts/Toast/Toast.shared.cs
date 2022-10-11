@@ -15,7 +15,7 @@ public partial class Toast : IToast
 	/// <inheritdoc/>
 	public string Text
 	{
-		get => text;
+		get => text; 
 		init => text = value ?? throw new ArgumentNullException(nameof(value));
 	}
 
